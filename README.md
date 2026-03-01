@@ -14,7 +14,8 @@
 5) Model (5-fold + Optuna: RF/XGB/CAT + 블렌딩)
 6) Predict
 
-## 3. 디렉토리 구조 
+## 3. 디렉토리 구조
+```text
 .
 ├─ data/
 │  ├─ raw/                # 원본 데이터
@@ -24,11 +25,11 @@
 │  └─ v18.ipynb           # 모델 학습/검증 및 제출 파일 생성(최종)
 ├─ assets/                # 시각화 결과
 ├─ outputs/               # 제출파일
-├─ requirements.txt            
+├─ requirements.txt       # 최소 실행 패키지 목록
 └─ README.md
+```
 
 ## 4. 설치 가이드
 1) 설치
 ```bash
 pip install -r requirements.txt
-2) 데이터 넣기

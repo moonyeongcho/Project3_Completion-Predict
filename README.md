@@ -26,3 +26,9 @@
 ├─ outputs/               # 제출파일
 ├─ requirements.txt            
 └─ README.md
+
+## 4. 설치 가이드
+1) 설치
+```bash
+pip install -r requirements.txt
+2) 데이터 넣기

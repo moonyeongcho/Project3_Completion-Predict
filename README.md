@@ -23,8 +23,9 @@
 ├─ src/
 │  ├─ preprocess.ipynb    # 데이터 전처리
 │  └─ v18.ipynb           # 모델 학습/검증 및 제출 파일 생성(최종)
-├─ assets/                # 시각화 결과
+├─ assets/                # EDA 시각화 결과
 ├─ outputs/               # 제출파일
+│  └─ submission.ipynb     
 ├─ requirements.txt       # 최소 실행 패키지 목록
 └─ README.md
 ```

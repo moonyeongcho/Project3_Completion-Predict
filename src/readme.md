@@ -1,1 +1,2 @@
-
+- Preprocess.ipynb: 전처리(train.csv -> train_v8.csv)
+- modeling.ipynb: 피처 선택 + 모델링 + 튜닝 + 최종파일 생성

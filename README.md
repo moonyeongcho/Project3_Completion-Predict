@@ -17,15 +17,15 @@
 ## 3. 디렉토리 구조
 ```text
 .
+├─ assets/                # EDA 시각화 결과
 ├─ data/
 │  ├─ raw/                # 원본 데이터
 │  └─ processed/          # 전처리 산출물
+├─ outputs/               # 제출파일
+│  └─ submission.csv
 ├─ src/
 │  ├─ preprocess.ipynb    # 데이터 전처리
 │  └─ v18.ipynb           # 모델 학습/검증 및 제출 파일 생성(최종)
-├─ assets/                # EDA 시각화 결과
-├─ outputs/               # 제출파일
-│  └─ submission.csv     
 ├─ requirements.txt       # 최소 실행 패키지 목록
 └─ README.md
 ```
